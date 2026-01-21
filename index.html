@@ -3,58 +3,104 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="Toro" content="width=device-width, initial-scale=1.0">
-    <title>El toro</title>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morbius Tech</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header><img src="/img/Toro.png" alt="Logo de El toro Consultores">
-        <h2><i>El toro</i></h2>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="proyecto.html">Proyecto</a></li>
-                <li><a href="cronologia.html">Cronología</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <img src="img/icono.png" alt="" id="imagenheader">
+        <h1 id="tituloheader">Morbius Tech</h1>
+        <input type="search" id="barraheader" placeholder="Buscar...">
+
+        <nav class="navheader">
+            <table class="tableheader">
+                <tr>
+                    <td class="tdheader"><a href="index.html" class="aheader">Inicio</a></td>
+                    <td class="tdheader"><a href="productos.html" class="aheader">Productos</a></td>
+                </tr>
+                <tr>
+                    <td class="tdheader"><a href="nosotros.html" class="aheader">Nosotros</a></td>
+                    <td class="tdheader"><a href="contacto.html" class="aheader">Contacto</a></td>
+                </tr>
+            </table>
     </header>
     <main>
-        <aside class="aside1">
+        <h2 class="h2main"><i>Bienvenido a Morbius Tech</i></h2>
+        <section class="sectionmain">
+            <p class="pmain"><i><strong>Tu consultora tecnológica de confianza</strong></i></p>
+        </section>
 
-            <article id="articulo1">
-                <h1><strong>Trabajamos para ti</strong></h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae obcaecati laudantium ad, fuga blanditiis
-                    vitae, consequuntur doloribus vero animi tempore sapiente? Molestiae accusamus harum atque praesentium
-                    aspernatur ea deleniti laborum!</p>
+        <section class="articulos">
+            <article class="articulo">
+                <img src="img/taller.jpg" alt="taller tecnico de Morbius" class="imagenarticulo">
+                <div>
+                    <h3>🔧 Mantenimiento de equipos</h3>
+                    <p>La inteligencia artificial está revolucionando el mundo. Descubre cómo los algoritmos de
+                        aprendizaje automático están transformando industrias y mejorando nuestras vidas día a día.</p>
+                </div>
             </article>
-            <a href="contacto.html" class="aside1a">Contactanos</a>
-        </aside>
 
-        <aside class="aside2">
-            <article class="article">
-                <h2>Desarrollo Web</h2>
-                <p>Creamos sitios web modernos y funcionales para tu negocio</p>
+            <article class="articulo">
+                <img src="img/ciberseguridad.jpg" alt="ciberseguridad" class="imagenarticulo">
+                <div>
+                    <h3>🔒 Ciberseguridad</h3>
+                    <p>Protege tus datos con las últimas tecnologías de ciberseguridad. Aprende sobre los mejores
+                        métodos para mantener tu información segura en el mundo digital.</p>
+                </div>
             </article>
-            <article class="article">
-                <h2>Cloud Computing</h2>
-                <p>Migracion segura a la nube, optimizacion de infraestrucura AWS/Azure y reduccion de costes operativos
-                </p>
-            </article>
-            <article class="article">
-                <h2>Ciberseguridad</h2>
-                <p>Protege tus datos y sistemas con nuestras soluciones de ciberseguridad</p>
-            </article>
-        </aside>
 
-        <section></section>
-<footer>
-        <p>© 2024 El toro Consultores. Todos los derechos reservados.</p>
-    </footer>
+            <article class="articulo">
+                <img src="img/cloudcomputing.jpg" alt="cloud computing" class="imagenarticulo">
+                <div>
+                    <h3>☁️ Cloud Computing</h3>
+                    <p>El almacenamiento en la nube es el futuro. Conoce las ventajas de migrar tus datos a servidores
+                        en línea y acceder a ellos desde cualquier lugar del mundo.</p>
+                </div>
+            </article>
+
+            <article class="articulo">
+                <img src="img/desarrolloweb.jpg" alt="desarrollo web" class="imagenarticulo">
+                <div>
+                    <h3>💻 Desarrollo Web</h3>
+                    <p>Crea aplicaciones web modernas y eficientes. Explora las tendencias más recientes en desarrollo
+                        web como React, Vue.js y las mejores prácticas de programación.</p>
+                </div>
+            </article>
+        </section>
+
+        <footer class="footermain">
+            <section class="derechosfooter">
+                <div>
+                    <p><i>© 2024 Morbius Tech. Todos los derechos reservados.</i></p>
+                    <p>Estamos para ayudarte</p>
+                </div>
+            </section>
+            <section class="footerinfo">
+                <div class="footerdiv">
+                    <h3>Servicios</h3>
+                    <p>Reparaciones</p>
+                    <p>Consultoría</p>
+                    <p>Soporte Técnico</p>
+                </div>
+                <div class="footerdiv">
+                    <h3>Sobre nosotros</h3>
+                    <p>Fundado en 2023</p>
+                    <p></p>
+                </div>
+                <div class="footerdiv">
+                    <h3>Contacto</h3>
+                    <p>info@morbiustech.com</p>
+                    <p>643 344 343</p>
+                </div>
+                <div class="footerdiv">
+                    <h3>Ubicación</h3>
+                    <p>Madrid, España</p>
+                </div>
+            </section>
+        </footer>
     </main>
-    
 </body>
 
 </html>
