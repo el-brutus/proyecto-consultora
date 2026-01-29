@@ -1,16 +1,16 @@
 body{
-    background: linear-gradient(150deg, black 25%, green 100%);
+    background: linear-gradient(150deg, black 25%, blue 100%);
     background-attachment: fixed;
     font-family: "Roboto", sans-serif;
 }
 .header{
-    border: 5px solid rgb(51, 255, 0);
+    border: 5px solid rgb(51, 153, 255);
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
     color: black;
     display: flex;
     align-items: center;
     padding: 15px 20px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5), 0 0 20px rgba(51, 255, 0, 0.3);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5), 0 0 20px rgba(51, 153, 255, 0.3);
     border-radius: 5px;
     margin: 10px;
 }
@@ -19,7 +19,7 @@ body{
     
 }
 .tableheader{
-    border: 2px solid rgb(51, 255, 0);
+    border: 2px solid rgb(51, 153, 255);
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 15px;
     list-style: none;
@@ -27,10 +27,10 @@ body{
     margin-right: 20px;
     text-align: center;
     padding: 10px 15px;
-    box-shadow: 0 4px 8px rgba(51, 255, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(51, 153, 255, 0.2);
 }
 .aheader{
-    color: rgb(51, 255, 0);
+    color: rgb(51, 153, 255);
     text-decoration: none;
     margin: 10px 15px;
     font-size: 16px;
@@ -41,9 +41,9 @@ body{
 
 .tdheader:hover {
     transition: 0.5s;
-    background-color: rgba(51, 255, 0, 0.3);
+    background-color: rgba(51, 153, 255, 0.3);
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(51, 255, 0, 0.5);
+    box-shadow: 0 0 10px rgba(51, 153, 255, 0.5);
 }
 #imagenheader{
     width: 100px;
@@ -51,19 +51,19 @@ body{
     float: left;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-    border: 2px solid rgb(51, 255, 0);
+    border: 2px solid rgb(51, 153, 255);
 }
 
 #tituloheader{
-    color: rgb(51, 255, 0);
+    color: rgb(51, 153, 255);
     font-size: 32px;
     font-weight: bold;
-    text-shadow: 0 0 10px rgba(51, 255, 0, 0.5);
+    text-shadow: 0 0 10px rgba(51, 153, 255, 0.5);
     margin: 0 20px;
 }
 #barraheader{
     border-radius: 25px;
-    background-color: rgba(51, 255, 0, 0.5);
+    background-color: rgba(51, 153, 255, 0.5);
     margin-left: auto;
     height: 35px;
     display: flex;
@@ -74,17 +74,19 @@ body{
     text-align: center;
     margin-right: 20px;
     padding: 5px 15px;
-    border: 2px solid rgb(51, 255, 0);
+    border: 2px solid rgb(51, 153, 255);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
+
 .h2main{
     text-align: center;
-    color: greenyellow;
+    color: lightblue;
 }
 .sectionmain{
     display: flex;
-    border: 1px solid rgb(30, 172, 30);
-    background-color: rgb(30, 172, 30);
+    border: 1px solid rgb(30, 100, 172);
+    background-color: rgb(30, 100, 172);
     border-radius: 10px;
     height: 30%;
     width: 30%;
@@ -102,8 +104,8 @@ body{
 }
 
 .articulo{
-    border: 2px solid rgb(51, 255, 0);
-    background-color: rgb(30, 172, 30);
+    border: 2px solid rgb(51, 153, 255);
+    background-color: rgb(30, 100, 172);
     margin: 10px;
     padding: 20px;
     border-radius: 10px;
@@ -132,8 +134,8 @@ body{
 }
 .articulo:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(51, 255, 0, 0.4);
-    background-color: rgb(51, 255, 0);
+    box-shadow: 0 8px 16px rgba(51, 153, 255, 0.4);
+    background-color: rgb(51, 153, 255);
 }
 
 .articulo h3{
@@ -144,8 +146,8 @@ body{
 
 .footermain {
     background-color: rgba(0, 0, 0, 0.8);
-    border-top: 2px solid rgb(51, 255, 0);
-    color: rgb(51, 255, 0);
+    border-top: 2px solid rgb(51, 153, 255);
+    color: rgb(51, 153, 255);
     text-align: center;
     padding: 20px;
     margin-top: auto;
@@ -154,11 +156,11 @@ body{
     text-align: center;
     color: black;
     margin-top: 20px;
-     border: 5px solid rgb(51, 255, 0);
+     border: 5px solid rgb(51, 153, 255);
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
     color: black;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5), 0 0 20px rgba(51, 255, 0, 0.3);
-    color: rgb(51, 255, 0);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5), 0 0 20px rgba(51, 153, 255, 0.3);
+    color: rgb(51, 153, 255);
     
     font-weight: bold;
     text-shadow: 0 0 10px rgba(51, 255, 0, 0.5);
@@ -172,6 +174,71 @@ body{
 .footerdiv{
     align-items: center;
     text-align: center;
-    margin: 100px;
 }
 
+.contacto{
+    border: 1px solid rgb(51, 153, 255);
+    background-color: rgb(30, 100, 172);
+    border-radius: 10px;
+    height: 30%;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.formcontacto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+
+.formcontacto select {
+    padding: 10px;
+    border: 1px solid rgb(51, 153, 255);
+    border-radius: 5px;
+    background-color: rgba(51, 153, 255, 0.5);
+    color: black;
+}
+.formcontacto label {
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+.formcontacto input{
+    padding: 10px;
+    border: 1px solid rgb(51, 153, 255);
+    border-radius: 5px;
+    background-color: rgba(51, 153, 255, 0.5);
+}
+
+.formcontacto input::placeholder {
+    color: black;
+    
+}
+.formcontacto textarea {
+    padding: 10px;
+    border: 1px solid rgb(51, 153, 255);
+    border-radius: 5px;
+    background-color: rgba(51, 153, 255, 0.5);
+    resize: vertical;
+}
+.formcontacto textarea::placeholder {
+    color: black;
+    
+}
+.formcontacto button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(51, 153, 255);
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.formcontacto button:hover {
+    background-color: rgb(30, 100, 172);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: 0.5s ;
+}
