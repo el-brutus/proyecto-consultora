@@ -2,6 +2,8 @@ body{
     background: linear-gradient(150deg, black 25%, blue 100%);
     background-attachment: fixed;
     font-family: "Roboto", sans-serif;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 .header{
     border: 5px solid rgb(51, 153, 255);
@@ -180,8 +182,7 @@ body{
     border: 1px solid rgb(51, 153, 255);
     background-color: rgb(30, 100, 172);
     border-radius: 10px;
-    height: 30%;
-    width: 30%;
+    
     text-align: center;
     margin: 0 auto;
     
@@ -191,6 +192,9 @@ body{
     flex-direction: column;
     gap: 15px;
     padding: 20px;
+    background-color: rgba(51, 153, 255, 0.5);
+    border-radius: 5px;
+    margin: 10px;
 }
 
 .formcontacto select {
@@ -241,4 +245,31 @@ body{
     background-color: rgb(30, 100, 172);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transition: 0.5s ;
+}
+
+.avance-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid rgb(51, 153, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.avance-table th, .avance-table td {
+    border: 1px solid rgb(51, 153, 255);
+    padding: 10px;
+    text-align: left;
+    color: rgb(51, 153, 255);
+}
+
+.avance-table th {
+    background-color: rgba(51, 153, 255, 0.2);
+    font-weight: bold;
+}
+
+.avance-table tr:nth-child(even) {
+    background-color: rgba(51, 153, 255, 0.1);
 }
