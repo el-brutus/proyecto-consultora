@@ -182,7 +182,7 @@ body{
     border: 1px solid rgb(51, 153, 255);
     background-color: rgb(30, 100, 172);
     border-radius: 10px;
-    
+    width: 50%;
     text-align: center;
     margin: 0 auto;
     
@@ -272,4 +272,21 @@ body{
 
 .avance-table tr:nth-child(even) {
     background-color: rgba(51, 153, 255, 0.1);
+}
+
+@media (max-width: 768px) {
+    .contacto {
+        width: 90%;
+    }
+    .avance-table {
+        width: 95%;
+    }
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .navheader {
+        margin-left: 0;
+        margin-top: 10px;
+    }
 }
