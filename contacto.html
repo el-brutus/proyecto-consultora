@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-   <header class="header">
-       
+    <header class="header">
+
         <h1 id="tituloheader">Morbius Tech</h1>
         <input type="search" id="barraheader" placeholder="Buscar...">
 
         <nav class="navheader">
-                    <a href="index.html" class="aheader">Inicio</a>
-                    <a href="proyecto.html" class="aheader">Proyecto</a>
-               
-                    <a href="cronologia.html" class="aheader">Cronología</a>
-                    <a href="contacto.html" class="aheader">Contacto</a>
-            
+            <a href="index.html" class="aheader">Inicio</a>
+            <a href="proyecto.html" class="aheader">Proyecto</a>
+
+            <a href="cronologia.html" class="aheader">Cronología</a>
+            <a href="contacto.html" class="aheader">Contacto</a>
+
         </nav>
     </header>
 
     <main>
         <section class="contacto">
             <h2>Contacto</h2>
-            <form action="https://morning-paper-a0fc.contry-1990.workers.dev" method="POST" class="formcontacto" >
+            <form action="https://morning-paper-a0fc.contry-1990.workers.dev" method="POST" class="formcontacto"
+                enctype="application/x-www-form-urlencoded">
                 <select name="asunto" id="asunto" required>
                     <option value="" disabled selected>Seleccione un asunto</option>
                     <option value="consulta">Consulta</option>
                     <option value="soporte">Soporte Técnico</option>
                     <option value="otros">Otros</option>
+                </select>
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required placeholder="Introduzca su nombre">
 
@@ -38,43 +42,46 @@
                 <input type="email" id="email" name="email" required placeholder="Introduzca su email">
 
                 <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje"  rows=4 required placeholder="Introduzca su mensaje"></textarea>
-                <input type="checkbox" id="terminos" name="terminos" placeholder="Terminos y condiciones" required>
-                <label for="terminos">Acepto los términos y condiciones</label>
+                <textarea id="mensaje" name="mensaje" rows=4 required placeholder="Introduzca su mensaje"></textarea>
+                <div>
+                    <label for="terminos"><input type="checkbox" id="terminos" name="terminos" value="on" required>
+                        Términos y condiciones</label>
+                </div>
                 <button type="submit">Enviar</button>
-            </form>    
+            </form>
         </section>
     </main>
 
     <footer class="footermain">
-            <section class="derechosfooter">
-                <div>
-                    <p><i>© 2026 Morbius Tech. Todos los derechos reservados.</i></p>
-                    <p>Estamos para ayudarte</p>
-                </div>
-            </section>
-            <section class="footerinfo">
-                <div class="footerdiv">
-                    <h3>Servicios</h3>
-                    <p>Reparaciones</p>
-                    <p>Consultoría</p>
-                    <p>Soporte Técnico</p>
-                </div>
-                <div class="footerdiv">
-                    <h3>Sobre nosotros</h3>
-                    <p>Fundado en 2023</p>
-                    <p></p>
-                </div>
-                <div class="footerdiv">
-                    <h3>Contacto</h3>
-                    <p>info@morbiustech.com</p>
-                    <p>643 344 343</p>
-                </div>
-                <div class="footerdiv">
-                    <h3>Ubicación</h3>
-                    <p>Madrid, España</p>
-                </div>
-            </section>
-        </footer>
+        <section class="derechosfooter">
+            <div>
+                <p><i>© 2026 Morbius Tech. Todos los derechos reservados.</i></p>
+                <p>Estamos para ayudarte</p>
+            </div>
+        </section>
+        <section class="footerinfo">
+            <div class="footerdiv">
+                <h3>Servicios</h3>
+                <p>Reparaciones</p>
+                <p>Consultoría</p>
+                <p>Soporte Técnico</p>
+            </div>
+            <div class="footerdiv">
+                <h3>Sobre nosotros</h3>
+                <p>Fundado en 2023</p>
+                <p></p>
+            </div>
+            <div class="footerdiv">
+                <h3>Contacto</h3>
+                <p>info@morbiustech.com</p>
+                <p>643 344 343</p>
+            </div>
+            <div class="footerdiv">
+                <h3>Ubicación</h3>
+                <p>Madrid, España</p>
+            </div>
+        </section>
+    </footer>
 </body>
+
 </html>
