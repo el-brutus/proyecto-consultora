@@ -7,29 +7,25 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
-        <img src="img/yes.gif" alt="" id="imagenheader">
+   <header class="header">
+       
         <h1 id="tituloheader">Morbius Tech</h1>
         <input type="search" id="barraheader" placeholder="Buscar...">
 
         <nav class="navheader">
-            <table class="tableheader">
-                <tr>
-                    <td class="tdheader"><a href="index.html" class="aheader">Inicio</a></td>
-                    <td class="tdheader"><a href="proyecto.html" class="aheader">Proyecto</a></td>
-                </tr>
-                <tr>
-                    <td class="tdheader"><a href="cronologia.html" class="aheader">Cronología</a></td>
-                    <td class="tdheader"><a href="contacto.html" class="aheader">Contacto</a></td>
-                </tr>
-            </table>
+                    <a href="index.html" class="aheader">Inicio</a>
+                    <a href="proyecto.html" class="aheader">Proyecto</a>
+               
+                    <a href="cronologia.html" class="aheader">Cronología</a>
+                    <a href="contacto.html" class="aheader">Contacto</a>
+            
+        </nav>
     </header>
-
 
     <main>
         <section class="contacto">
             <h2>Contacto</h2>
-            <form action="morning-paper-a0fc.contry-1990.workers.dev" method="post" class="formcontacto" >
+            <form action="https://morning-paper-a0fc.contry-1990.workers.dev" method="POST" class="formcontacto" >
                 <select name="asunto" id="asunto" required>
                     <option value="" disabled selected>Seleccione un asunto</option>
                     <option value="consulta">Consulta</option>
@@ -43,7 +39,8 @@
 
                 <label for="mensaje">Mensaje:</label>
                 <textarea id="mensaje" name="mensaje"  rows=4 required placeholder="Introduzca su mensaje"></textarea>
-
+                <input type="checkbox" id="terminos" name="terminos" placeholder="Terminos y condiciones" required>
+                <label for="terminos">Acepto los términos y condiciones</label>
                 <button type="submit">Enviar</button>
             </form>    
         </section>
