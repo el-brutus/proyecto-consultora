@@ -1,22 +1,30 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
-    background: linear-gradient(150deg, black 25%, blue 100%);
+    background: linear-gradient(150deg, #0B0F1A 25%, #1E3A8A 100%);
     background-attachment: fixed;
     font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
+}
 
+main {
+  flex: 1;
 }
 
 .header {
-    border: 5px solid rgb(51, 153, 255);
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
-    color: black;
+    border: 3px solid #3B82F6;
+    background: linear-gradient(to bottom, rgba(11, 15, 26, 0.95), rgba(11, 15, 26, 0.85));
+    color: #E5E7EB;
     display: flex;
     align-items: center;
     padding: 15px 20px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5), 0 0 20px rgba(51, 153, 255, 0.3);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6), 0 0 20px rgba(59, 130, 246, 0.25);
     border-radius: 5px;
-    margin: 0px;
+    margin: 0;
     margin-bottom: 10px;
 }
 
@@ -25,7 +33,7 @@ body {
 }
 
 .aheader {
-    color: rgb(51, 153, 255);
+    color: #93C5FD;
     text-decoration: none;
     margin: 10px 15px;
     font-size: 16px;
@@ -34,20 +42,17 @@ body {
     padding: 8px 12px;
 }
 
-
-
-
 #tituloheader {
-    color: rgb(51, 153, 255);
+    color: #3B82F6;
     font-size: 32px;
     font-weight: bold;
-    text-shadow: 0 0 10px rgba(51, 153, 255, 0.5);
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.4);
     margin: 0 20px;
 }
 
 #barraheader {
     border-radius: 25px;
-    background-color: rgba(51, 153, 255, 0.5);
+    background-color: rgba(59, 130, 246, 0.15);
     margin-left: auto;
     height: 35px;
     display: flex;
@@ -58,14 +63,14 @@ body {
     text-align: center;
     margin-right: 20px;
     padding: 5px 15px;
-    border: 2px solid rgb(51, 153, 255);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border: 2px solid #3B82F6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .hero-index {
     padding: 10px;
     border-radius: 10px;
-    color: black;
+    color: #E5E7EB;
     gap: 40px 20px;
     justify-items: center;
     align-items: center;
@@ -77,61 +82,45 @@ body {
     margin: 10px;
     padding: 20px;
     border-radius: 10px;
-    color: black;
+    color: #E5E7EB;
     transition: 0.3s ease;
-
-
 }
 
-.hero-content img {
+.hero-content img,
+.imagenarticulo {
     margin: 10px;
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-
-}
-
-.imagenarticulo {
-
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .divarticulo {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: rgb(51, 153, 255);
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-
+    color: #93C5FD;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
 }
-
 
 .articulo h3 {
     margin-top: 0;
     font-size: 24px;
     margin-bottom: 15px;
     text-align: center;
-    color: rgb(51, 153, 255);
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    color: #93C5FD;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
 }
-
 
 .footermain {
     text-align: center;
-    color: black;
     margin-top: 20px;
-    border: 5px solid rgb(51, 153, 255);
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
-    color: black;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5), 0 0 20px rgba(51, 153, 255, 0.3);
-    color: rgb(51, 153, 255);
+    border: 3px solid #3B82F6;
+    background: linear-gradient(to bottom, rgba(11, 15, 26, 0.95), rgba(11, 15, 26, 0.85));
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6), 0 0 20px rgba(59, 130, 246, 0.25);
+    color: #93C5FD;
     font-weight: bold;
-    text-shadow: 0 0 10px rgba(51, 255, 0, 0.5);
+    text-shadow: 0 0 8px rgba(59, 130, 246, 0.4);
 }
 
 .footerinfo {
@@ -147,15 +136,13 @@ body {
 }
 
 .contacto {
-    border: 1px solid rgb(51, 153, 255);
-    background-color: rgb(30, 100, 172);
+    border: 1px solid #3B82F6;
+    background-color: #1E3A8A;
     border-radius: 10px;
     width: 60%;
-    height: auto;
     padding: 20px;
     text-align: center;
     margin: 0 auto;
-
 }
 
 .formcontacto {
@@ -163,95 +150,70 @@ body {
     flex-direction: column;
     gap: 15px;
     padding: 20px;
-    background-color: rgba(51, 153, 255, 0.5);
+    background-color: rgba(59, 130, 246, 0.15);
     border-radius: 5px;
     margin: 10px;
 }
 
-.formcontacto select {
+.formcontacto select,
+.formcontacto input,
+.formcontacto textarea {
     padding: 10px;
-    border: 1px solid rgb(51, 153, 255);
+    border: 1px solid #3B82F6;
     border-radius: 5px;
-    background-color: rgba(51, 153, 255, 0.5);
-    color: black;
+    background-color: rgba(59, 130, 246, 0.15);
+    color: #E5E7EB;
 }
 
 .formcontacto label {
     font-weight: bold;
-    color: black;
+    color: #E5E7EB;
     text-align: left;
 }
 
-.formcontacto input {
-    padding: 10px;
-    border: 1px solid rgb(51, 153, 255);
-    border-radius: 5px;
-    background-color: rgba(51, 153, 255, 0.5);
-}
-
-.formcontacto input::placeholder {
-    color: black;
-
-}
-
-.formcontacto textarea {
-    padding: 10px;
-    border: 1px solid rgb(51, 153, 255);
-    border-radius: 5px;
-    background-color: rgba(51, 153, 255, 0.5);
-    resize: vertical;
-}
-
+.formcontacto input::placeholder,
 .formcontacto textarea::placeholder {
-    color: black;
-
+    color: #CBD5E1;
 }
 
 .formcontacto button {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: rgb(51, 153, 255);
-    color: black;
+    background-color: #3B82F6;
+    color: #0B0F1A;
     font-weight: bold;
     cursor: pointer;
-
 }
 
 .formcontacto button:hover {
-    background-color: rgb(30, 100, 172);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #2563EB;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     transition: 0.5s;
 }
-
-
 
 .avance-table {
     width: 80%;
     margin: 20px auto;
     border-collapse: collapse;
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 2px solid rgb(51, 153, 255);
+    background-color: rgba(11, 15, 26, 0.85);
+    border: 2px solid #3B82F6;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .avance-table th,
 .avance-table td {
-    border: 1px solid rgb(51, 153, 255);
+    border: 1px solid #3B82F6;
     padding: 10px;
     text-align: left;
-    color: rgb(51, 153, 255);
+    color: #E5E7EB;
 }
 
 .avance-table th {
-    background-color: rgba(51, 153, 255, 0.2);
-    font-weight: bold;
+    background-color: rgba(59, 130, 246, 0.15);
 }
-
-
-
 
 @media (max-width: 768px) {
     .contacto {
