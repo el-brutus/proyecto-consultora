@@ -215,6 +215,71 @@ main {
     background-color: rgba(59, 130, 246, 0.15);
 }
 
+
+.proyecto {
+    padding: 20px;
+    border-radius: 10px;
+    color: #E5E7EB;
+    background-color: rgba(11, 15, 26, 0.85);
+    border: 2px solid #3B82F6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin: 20px auto;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sectioncentral {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #3B82F6;
+    background-color: rgba(11, 15, 26, 0.85);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin: 20px auto;
+    width: 80%;
+}
+.botoncontacto {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3B82F6;
+    color: #0B0F1A;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    
+}
+.botoncontacto a {
+    color: #0B0F1A;
+    text-decoration: none;
+}
+.botoncontacto:hover {
+    background-color: #2563EB;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+.tableproyecto {
+    color: #E5E7EB;
+    background-color: rgba(11, 15, 26, 0.85);
+    border: 2px solid #3B82F6;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.tableproyecto th,
+.tableproyecto td {
+    border: 1px solid #3B82F6;
+    padding: 10px;
+    text-align: center;
+    color: #E5E7EB;
+}
+
+
 @media (max-width: 768px) {
     .contacto {
         width: 90%;
